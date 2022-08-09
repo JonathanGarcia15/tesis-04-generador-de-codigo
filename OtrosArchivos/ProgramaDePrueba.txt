@@ -1,0 +1,327 @@
+programa(){
+
+	/// Este es un comentario
+	pick_up();
+	toma_objeto();
+
+	put_down();
+	soltar_objeto();
+
+	delete_object();
+	eliminar_objeto();
+
+	disable_bomb();
+	desactivar_bomba();
+	disable_kaboom();
+	desactivar_kaboom();
+
+	stop_painting();
+	dejar_de_pintar();
+
+	object_in_front ();
+	tengo_objeto_delante();
+
+	bomb_in_front();
+	tengo_bomba_delante();
+	kaboom_in_front();
+	tengo_kaboom_delante();
+
+	in_front_me ();
+	delante_de_mi();
+
+	finish();
+	terminar();
+
+	wall_in_front();
+	tengo_muro_delante();
+
+	paint_floor();
+	pintar_suelo(azul);
+	paint_floor(blue);
+	pintar_suelo(green);
+	paint_floor(verde);
+	pintar_suelo(amarillo);
+	paint_floor(yellow);
+	pintar_suelo(red);
+	paint_floor(rojo);
+	pintar_suelo();
+
+	print_var(id);
+	imprimir_var(id2);
+	print_variable(id3);
+	imprimir_variable(id4);
+
+	...
+		Código desechado
+	pintar_suelo(green);
+	paint_floor(verde);
+	pintar_suelo(amarillo);
+	paint_floor(yellow);
+	pintar_suelo(red);
+	paint_floor(rojo);
+	pintar_suelo();
+
+	print_var(id);
+	imprimir_var(id2);
+	...
+
+	var id5;
+	var id6<-78;
+	var id7<-random();
+	var id8<-aleatorio(4,9);
+	var id9<-(78+78);
+	var id10<-78+(78+id23);
+	var id11<-(78+78);
+	var id12<-(78+78+id24);
+	var id13<-id30;
+	var id14<-(id29+89);
+	var id15<-(id28+89+(200*78*random())+(51155+ssd)-id25);
+	var id16<-(id27+89);
+	var id17<-(id26+89)+aleatorio(4,9);
+	var id18, id19;
+	var id20, id21, id22;
+
+	var id31,
+		id32<-78,
+		id33<-random(),
+		id34<-aleatorio(4,9),
+		id35<-(78+78),
+		id36<-78+(78+id60),
+		id37<-(78+78),
+		id38<-(78+78+id59),
+		id39<-(id40+89+(200*78*random())+(51155+aleatorio(4,9))-id41),
+		id43<-id42,
+		id44<-(id45+89),
+		id53<-(id47+89+id46),
+		id52<-(id48+89),
+		id51<-(id49+89)+id50,
+		id54, id55,
+		id58, id57, id56;
+
+	id<-78;
+	id<-(78+78);
+	id<-78+(78+id);
+	id<-(78+78);
+	id<-(78+78+id);
+	id<-id;
+	id<-(id+89);
+	id<-(id+89+(200*78*er)+(51155+ssd)-id);
+	id<-(id+89);
+	id<-(id+89)+id;
+
+	avanzar();
+	avanzar(random(7,98));
+	avanzar(aleatorio());
+	move(5);
+	avanzar(id);
+	move(5+78);
+	move(5+78+(id+96));
+
+	espera();
+	espera(random(7,98));
+	espera(aleatorio());
+	wait(5);
+	espera(id);
+	wait(5+78);
+	espera(5+78+(id+96));
+
+	turn_left();
+	turn_left(random(7,98));
+	turn_left(aleatorio());
+	gira_izquierda(5);
+	turn_left(id);
+	gira_izquierda(5+78);
+	turn_left(5+78+(id+96));
+
+	turn_right();
+	turn_right(random(7,98));
+	turn_right(aleatorio());
+	gira_derecha(5);
+	turn_right(id);
+	gira_derecha(5+78);
+	turn_right(5+78+(id+96));
+
+	id12++;
+	id48--;
+
+	llamadaAFuncion();
+	llamadaAFuncion(id);
+	llamadaAFuncion(848);
+	llamadaAFuncion(id,89,id);
+	llamadaAFuncion(random(),id,89);
+	llamadaAFuncion(random(7,95),id,89);
+	llamadaAFuncion(848+78+id);
+	llamadaAFuncion(id+(78/3),(id+78)+1,id+1);
+
+	print (id45);
+	imprimir("Cadena: ");
+	print (id46+"El ID es ");
+	imprimir("Valor: "+id48);
+	print (id49+" es distinto de "+ id50);
+	imprimir("Resultado: "+id51+ " final");
+
+
+	///Solo estrucutras IF
+	if(id<78){
+		llamadaAFuncion();
+		llamadaAFuncion(id);
+	}
+
+	if(true){
+		wall_in_front();
+		tengo_muro_delante();
+	}
+
+	if(random() <= aleatorio(7,9)){
+		if((true)){
+			pintar_suelo(green);
+			paint_floor(verde);
+		}
+		object_in_front ();
+		tengo_objeto_delante();
+	}
+
+	if(!(id<78)){
+		bomb_in_front();
+		tengo_bomba_delante();
+	}
+
+	if((true)){
+		pintar_suelo(green);
+		paint_floor(verde);
+	}
+
+	if(!(random() <= aleatorio(7,9))){
+		gira_derecha(5+78);
+		turn_right(5+78+(id+96));
+	}
+
+	if((aleatorio(7,9) >= 78) or !(true) ){
+		var id<-aleatorio(4,9);
+		var id<-(78+78);
+	}
+
+	///Solo estructuras if else
+
+	if(id<78){
+		llamadaAFuncion();
+		llamadaAFuncion(id);
+	}else{
+		wall_in_front();
+		tengo_muro_delante();
+	}
+
+	if(random() <= aleatorio(7,9)){
+		if((true)){
+			pintar_suelo(green);
+			paint_floor(verde);
+		}
+		object_in_front ();
+		tengo_objeto_delante();
+	}
+
+	else{
+		bomb_in_front();
+		tengo_bomba_delante();
+	}
+
+	if((true)){
+		pintar_suelo(green);
+		paint_floor(verde);
+	}
+
+	else{
+		gira_derecha(5+78);
+		turn_right(5+78+(id+96));
+	}
+
+	if((aleatorio(7,9) >= 78) or !(true) ){
+		var id<-aleatorio(4,9);
+		var id<-(78+78);
+	}else{}
+
+	/// Estructura if else if else
+
+	si(id<78){
+		wait(1);
+	}else_if(true){
+		wait(2);
+	}sinosi(random() <= aleatorio(7,9)){
+		wait(3);
+	}else_if(!(id<78)){
+		wait(4);
+	}sinosi((true)){
+		wait(5);
+	}else_if(!(random() <= aleatorio(7,9))){
+		wait(6);
+	}else{
+		wait(7);
+	}
+
+	///Estructura case
+
+	comparar(id){
+		case 7:
+			wait(5);
+			move(1);
+			tengo_muro_delante();
+		case <7:
+			move(2);
+			wall_in_front();
+			tengo_muro_delante();
+			wait(4);
+			end;
+		case random():
+			wall_in_front();
+			wait(3);
+			tengo_muro_delante();
+			move(3);
+			fin;
+		case aleatorio(7,12):
+			wall_in_front();
+			move(4);
+			tengo_muro_delante();
+			wait(2);
+			fin;
+		default:
+			wall_in_front();
+			move(5);
+			tengo_muro_delante();
+			wait(1);
+			fin;
+	}
+
+
+	///Estrucutras iterativas
+
+	para(var i<-0, id<-(2*random()) ; i<25 ; i++, a--){
+		wall_in_front();
+		tengo_muro_delante();
+	}
+
+	hacer{
+		wall_in_front();
+		tengo_muro_delante();
+	}while(falso);
+
+	repite_hasta(verdadero){
+		wall_in_front();
+		tengo_muro_delante();
+	}
+}
+
+///Funciones
+
+funcionSimple(){
+	repite_hasta(verdadero){
+		wall_in_front(); 
+		tengo_muro_delante();
+	}
+}
+
+funcionConParametros(var id, var other, var right){
+	funcionSimple();
+	turn_right(id);
+	gira_derecha(other);
+	turn_right(right);
+}

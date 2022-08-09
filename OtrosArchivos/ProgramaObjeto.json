@@ -1,0 +1,4657 @@
+{
+  "functions": [
+    {
+      "subprogram": [
+        {
+          "condition": {
+            "identifier": "",
+            "compareWith": {
+
+            },
+            "type": 0,
+            "value": "verdadero",
+            "valueFrom": {
+
+            },
+            "isBracket": false
+          },
+          "subprogram": [
+            {
+              "instruction": "MURODELANTE"
+            },
+            {
+              "instruction": "MURODELANTE"
+            }
+          ],
+          "instruction": "REPITEHASTA"
+        }
+      ],
+      "instruction": "FUNCION",
+      "parameter": [
+
+      ]
+    },
+    {
+      "subprogram": [
+        {
+          "instruction": "LLAMADAAFUNCION",
+          "parameter": [
+
+          ],
+          "name": "funcionSimple"
+        },
+        {
+          "instruction": "DERECHA",
+          "parameter": {
+            "identifier": "id",
+            "type": 1,
+            "value": -1,
+            "valueFrom": {
+
+            }
+          }
+        },
+        {
+          "instruction": "DERECHA",
+          "parameter": {
+            "identifier": "other",
+            "type": 1,
+            "value": -1,
+            "valueFrom": {
+
+            }
+          }
+        },
+        {
+          "instruction": "DERECHA",
+          "parameter": {
+            "identifier": "right",
+            "type": 1,
+            "value": -1,
+            "valueFrom": {
+
+            }
+          }
+        }
+      ],
+      "instruction": "FUNCION",
+      "parameter": [
+        {
+          "identifier": "id",
+          "instruction": "DECLARAFUNCION"
+        },
+        {
+          "identifier": "other",
+          "instruction": "DECLARAFUNCION"
+        },
+        {
+          "identifier": "right",
+          "instruction": "DECLARAFUNCION"
+        }
+      ]
+    }
+  ],
+  "main": [
+    {
+      "instruction": "TOMAR"
+    },
+    {
+      "instruction": "TOMAR"
+    },
+    {
+      "instruction": "SOLTAR"
+    },
+    {
+      "instruction": "SOLTAR"
+    },
+    {
+      "instruction": "ELIMINAR"
+    },
+    {
+      "instruction": "ELIMINAR"
+    },
+    {
+      "instruction": "DESACTIVARKABOOM"
+    },
+    {
+      "instruction": "DESACTIVARKABOOM"
+    },
+    {
+      "instruction": "DESACTIVARKABOOM"
+    },
+    {
+      "instruction": "DESACTIVARKABOOM"
+    },
+    {
+      "instruction": "DEJAPINTAR"
+    },
+    {
+      "instruction": "DEJAPINTAR"
+    },
+    {
+      "instruction": "OBJETODELANTE"
+    },
+    {
+      "instruction": "OBJETODELANTE"
+    },
+    {
+      "instruction": "KABOOMDEFRENTE"
+    },
+    {
+      "instruction": "KABOOMDEFRENTE"
+    },
+    {
+      "instruction": "KABOOMDEFRENTE"
+    },
+    {
+      "instruction": "KABOOMDEFRENTE"
+    },
+    {
+      "instruction": "QUETENGODELANTE"
+    },
+    {
+      "instruction": "QUETENGODELANTE"
+    },
+    {
+      "instruction": "TERMINARBLOQUE"
+    },
+    {
+      "instruction": "TERMINARBLOQUE"
+    },
+    {
+      "instruction": "MURODELANTE"
+    },
+    {
+      "instruction": "MURODELANTE"
+    },
+    {
+      "color": "DEFAULT",
+      "instruction": "PINTAR"
+    },
+    {
+      "color": "azul",
+      "instruction": "PINTAR"
+    },
+    {
+      "color": "blue",
+      "instruction": "PINTAR"
+    },
+    {
+      "color": "green",
+      "instruction": "PINTAR"
+    },
+    {
+      "color": "verde",
+      "instruction": "PINTAR"
+    },
+    {
+      "color": "amarillo",
+      "instruction": "PINTAR"
+    },
+    {
+      "color": "yellow",
+      "instruction": "PINTAR"
+    },
+    {
+      "color": "red",
+      "instruction": "PINTAR"
+    },
+    {
+      "color": "rojo",
+      "instruction": "PINTAR"
+    },
+    {
+      "color": "DEFAULT",
+      "instruction": "PINTAR"
+    },
+    {
+      "identifier": "id",
+      "instruction": "IMPRIMIRVARIABLE"
+    },
+    {
+      "identifier": "id2",
+      "instruction": "IMPRIMIRVARIABLE"
+    },
+    {
+      "identifier": "id3",
+      "instruction": "IMPRIMIRVARIABLE"
+    },
+    {
+      "identifier": "id4",
+      "instruction": "IMPRIMIRVARIABLE"
+    },
+    {
+      "identifier": "id5",
+      "random": {
+
+      },
+      "instruction": "DECLARAVARIABLE",
+      "type": 0,
+      "value": -1,
+      "operation": {
+
+      },
+      "valueFrom": ""
+    },
+    {
+      "identifier": "id6",
+      "random": {
+
+      },
+      "instruction": "DECLARAVARIABLE",
+      "type": 1,
+      "value": 78,
+      "operation": {
+
+      },
+      "valueFrom": ""
+    },
+    {
+      "identifier": "id7",
+      "random": {
+        "instruction": "RANDOM",
+        "from": -1,
+        "to": -1,
+        "between": false
+      },
+      "instruction": "DECLARAVARIABLE",
+      "type": 2,
+      "value": -1,
+      "operation": {
+
+      },
+      "valueFrom": ""
+    },
+    {
+      "identifier": "id8",
+      "random": {
+        "instruction": "RANDOM",
+        "from": 4,
+        "to": 9,
+        "between": true
+      },
+      "instruction": "DECLARAVARIABLE",
+      "type": 2,
+      "value": -1,
+      "operation": {
+
+      },
+      "valueFrom": ""
+    },
+    {
+      "identifier": "id9",
+      "random": {
+
+      },
+      "instruction": "DECLARAVARIABLE",
+      "type": 3,
+      "value": -1,
+      "operation": {
+        "random": {
+
+        },
+        "type": 0,
+        "value": -1,
+        "operation": {
+          "random": {
+
+          },
+          "type": 1,
+          "value": 78,
+          "operation": {
+            "random": {
+
+            },
+            "type": 1,
+            "value": 78,
+            "operation": {
+
+            },
+            "valueFrom": "",
+            "operator": "+",
+            "isBracket": false
+          },
+          "valueFrom": "",
+          "operator": "",
+          "isBracket": false
+        },
+        "valueFrom": "",
+        "operator": "",
+        "isBracket": true
+      },
+      "valueFrom": ""
+    },
+    {
+      "identifier": "id10",
+      "random": {
+
+      },
+      "instruction": "DECLARAVARIABLE",
+      "type": 3,
+      "value": -1,
+      "operation": {
+        "random": {
+
+        },
+        "type": 1,
+        "value": 78,
+        "operation": {
+          "random": {
+
+          },
+          "type": 0,
+          "value": -1,
+          "operation": {
+            "random": {
+
+            },
+            "type": 0,
+            "value": -1,
+            "operation": {
+              "random": {
+
+              },
+              "type": 1,
+              "value": 78,
+              "operation": {
+                "random": {
+
+                },
+                "type": 2,
+                "value": -1,
+                "operation": {
+
+                },
+                "valueFrom": "id23",
+                "operator": "+",
+                "isBracket": false
+              },
+              "valueFrom": "",
+              "operator": "",
+              "isBracket": false
+            },
+            "valueFrom": "",
+            "operator": "",
+            "isBracket": true
+          },
+          "valueFrom": "",
+          "operator": "+",
+          "isBracket": true
+        },
+        "valueFrom": "",
+        "operator": "",
+        "isBracket": false
+      },
+      "valueFrom": ""
+    },
+    {
+      "identifier": "id11",
+      "random": {
+
+      },
+      "instruction": "DECLARAVARIABLE",
+      "type": 3,
+      "value": -1,
+      "operation": {
+        "random": {
+
+        },
+        "type": 0,
+        "value": -1,
+        "operation": {
+          "random": {
+
+          },
+          "type": 1,
+          "value": 78,
+          "operation": {
+            "random": {
+
+            },
+            "type": 1,
+            "value": 78,
+            "operation": {
+
+            },
+            "valueFrom": "",
+            "operator": "+",
+            "isBracket": false
+          },
+          "valueFrom": "",
+          "operator": "",
+          "isBracket": false
+        },
+        "valueFrom": "",
+        "operator": "",
+        "isBracket": true
+      },
+      "valueFrom": ""
+    },
+    {
+      "identifier": "id12",
+      "random": {
+
+      },
+      "instruction": "DECLARAVARIABLE",
+      "type": 3,
+      "value": -1,
+      "operation": {
+        "random": {
+
+        },
+        "type": 0,
+        "value": -1,
+        "operation": {
+          "random": {
+
+          },
+          "type": 1,
+          "value": 78,
+          "operation": {
+            "random": {
+
+            },
+            "type": 1,
+            "value": 78,
+            "operation": {
+              "random": {
+
+              },
+              "type": 2,
+              "value": -1,
+              "operation": {
+
+              },
+              "valueFrom": "id24",
+              "operator": "+",
+              "isBracket": false
+            },
+            "valueFrom": "",
+            "operator": "+",
+            "isBracket": false
+          },
+          "valueFrom": "",
+          "operator": "",
+          "isBracket": false
+        },
+        "valueFrom": "",
+        "operator": "",
+        "isBracket": true
+      },
+      "valueFrom": ""
+    },
+    {
+      "identifier": "id13",
+      "random": {
+
+      },
+      "instruction": "DECLARAVARIABLE",
+      "type": 4,
+      "value": -1,
+      "operation": {
+
+      },
+      "valueFrom": "id30"
+    },
+    {
+      "identifier": "id14",
+      "random": {
+
+      },
+      "instruction": "DECLARAVARIABLE",
+      "type": 3,
+      "value": -1,
+      "operation": {
+        "random": {
+
+        },
+        "type": 0,
+        "value": -1,
+        "operation": {
+          "random": {
+
+          },
+          "type": 2,
+          "value": -1,
+          "operation": {
+            "random": {
+
+            },
+            "type": 1,
+            "value": 89,
+            "operation": {
+
+            },
+            "valueFrom": "",
+            "operator": "+",
+            "isBracket": false
+          },
+          "valueFrom": "id29",
+          "operator": "",
+          "isBracket": false
+        },
+        "valueFrom": "",
+        "operator": "",
+        "isBracket": true
+      },
+      "valueFrom": ""
+    },
+    {
+      "identifier": "id15",
+      "random": {
+
+      },
+      "instruction": "DECLARAVARIABLE",
+      "type": 3,
+      "value": -1,
+      "operation": {
+        "random": {
+
+        },
+        "type": 0,
+        "value": -1,
+        "operation": {
+          "random": {
+
+          },
+          "type": 2,
+          "value": -1,
+          "operation": {
+            "random": {
+
+            },
+            "type": 1,
+            "value": 89,
+            "operation": {
+              "random": {
+
+              },
+              "type": 0,
+              "value": -1,
+              "operation": {
+                "random": {
+                  "random": {
+
+                  },
+                  "type": 0,
+                  "value": -1,
+                  "operation": {
+                    "random": {
+                      "random": {
+
+                      },
+                      "type": 2,
+                      "value": -1,
+                      "operation": {
+
+                      },
+                      "valueFrom": "id25",
+                      "operator": "-",
+                      "isBracket": false
+                    },
+                    "type": 0,
+                    "value": -1,
+                    "operation": {
+                      "random": {
+
+                      },
+                      "type": 1,
+                      "value": 51155,
+                      "operation": {
+                        "random": {
+
+                        },
+                        "type": 2,
+                        "value": -1,
+                        "operation": {
+
+                        },
+                        "valueFrom": "ssd",
+                        "operator": "+",
+                        "isBracket": false
+                      },
+                      "valueFrom": "",
+                      "operator": "",
+                      "isBracket": false
+                    },
+                    "valueFrom": "",
+                    "operator": "",
+                    "isBracket": true
+                  },
+                  "valueFrom": "",
+                  "operator": "+",
+                  "isBracket": true
+                },
+                "type": 0,
+                "value": -1,
+                "operation": {
+                  "random": {
+
+                  },
+                  "type": 1,
+                  "value": 200,
+                  "operation": {
+                    "random": {
+
+                    },
+                    "type": 1,
+                    "value": 78,
+                    "operation": {
+                      "random": {
+                        "instruction": "RANDOM",
+                        "from": -1,
+                        "to": -1,
+                        "between": false
+                      },
+                      "type": 3,
+                      "value": -1,
+                      "operation": {
+
+                      },
+                      "valueFrom": "",
+                      "operator": "*",
+                      "isBracket": false
+                    },
+                    "valueFrom": "",
+                    "operator": "*",
+                    "isBracket": false
+                  },
+                  "valueFrom": "",
+                  "operator": "",
+                  "isBracket": false
+                },
+                "valueFrom": "",
+                "operator": "",
+                "isBracket": true
+              },
+              "valueFrom": "",
+              "operator": "+",
+              "isBracket": true
+            },
+            "valueFrom": "",
+            "operator": "+",
+            "isBracket": false
+          },
+          "valueFrom": "id28",
+          "operator": "",
+          "isBracket": false
+        },
+        "valueFrom": "",
+        "operator": "",
+        "isBracket": true
+      },
+      "valueFrom": ""
+    },
+    {
+      "identifier": "id16",
+      "random": {
+
+      },
+      "instruction": "DECLARAVARIABLE",
+      "type": 3,
+      "value": -1,
+      "operation": {
+        "random": {
+
+        },
+        "type": 0,
+        "value": -1,
+        "operation": {
+          "random": {
+
+          },
+          "type": 2,
+          "value": -1,
+          "operation": {
+            "random": {
+
+            },
+            "type": 1,
+            "value": 89,
+            "operation": {
+
+            },
+            "valueFrom": "",
+            "operator": "+",
+            "isBracket": false
+          },
+          "valueFrom": "id27",
+          "operator": "",
+          "isBracket": false
+        },
+        "valueFrom": "",
+        "operator": "",
+        "isBracket": true
+      },
+      "valueFrom": ""
+    },
+    {
+      "identifier": "id17",
+      "random": {
+
+      },
+      "instruction": "DECLARAVARIABLE",
+      "type": 3,
+      "value": -1,
+      "operation": {
+        "random": {
+          "random": {
+            "instruction": "RANDOM",
+            "from": 4,
+            "to": 9,
+            "between": true
+          },
+          "type": 3,
+          "value": -1,
+          "operation": {
+
+          },
+          "valueFrom": "",
+          "operator": "+",
+          "isBracket": false
+        },
+        "type": 0,
+        "value": -1,
+        "operation": {
+          "random": {
+
+          },
+          "type": 2,
+          "value": -1,
+          "operation": {
+            "random": {
+
+            },
+            "type": 1,
+            "value": 89,
+            "operation": {
+
+            },
+            "valueFrom": "",
+            "operator": "+",
+            "isBracket": false
+          },
+          "valueFrom": "id26",
+          "operator": "",
+          "isBracket": false
+        },
+        "valueFrom": "",
+        "operator": "",
+        "isBracket": true
+      },
+      "valueFrom": ""
+    },
+    {
+      "identifier": "id18",
+      "random": {
+
+      },
+      "instruction": "DECLARAVARIABLE",
+      "type": 0,
+      "value": -1,
+      "operation": {
+
+      },
+      "valueFrom": ""
+    },
+    {
+      "identifier": "id19",
+      "random": {
+
+      },
+      "instruction": "DECLARAVARIABLE",
+      "type": 0,
+      "value": -1,
+      "operation": {
+
+      },
+      "valueFrom": ""
+    },
+    {
+      "identifier": "id20",
+      "random": {
+
+      },
+      "instruction": "DECLARAVARIABLE",
+      "type": 0,
+      "value": -1,
+      "operation": {
+
+      },
+      "valueFrom": ""
+    },
+    {
+      "identifier": "id21",
+      "random": {
+
+      },
+      "instruction": "DECLARAVARIABLE",
+      "type": 0,
+      "value": -1,
+      "operation": {
+
+      },
+      "valueFrom": ""
+    },
+    {
+      "identifier": "id22",
+      "random": {
+
+      },
+      "instruction": "DECLARAVARIABLE",
+      "type": 0,
+      "value": -1,
+      "operation": {
+
+      },
+      "valueFrom": ""
+    },
+    {
+      "identifier": "id31",
+      "random": {
+
+      },
+      "instruction": "DECLARAVARIABLE",
+      "type": 0,
+      "value": -1,
+      "operation": {
+
+      },
+      "valueFrom": ""
+    },
+    {
+      "identifier": "id32",
+      "random": {
+
+      },
+      "instruction": "DECLARAVARIABLE",
+      "type": 1,
+      "value": 78,
+      "operation": {
+
+      },
+      "valueFrom": ""
+    },
+    {
+      "identifier": "id33",
+      "random": {
+        "instruction": "RANDOM",
+        "from": -1,
+        "to": -1,
+        "between": false
+      },
+      "instruction": "DECLARAVARIABLE",
+      "type": 2,
+      "value": -1,
+      "operation": {
+
+      },
+      "valueFrom": ""
+    },
+    {
+      "identifier": "id34",
+      "random": {
+        "instruction": "RANDOM",
+        "from": 4,
+        "to": 9,
+        "between": true
+      },
+      "instruction": "DECLARAVARIABLE",
+      "type": 2,
+      "value": -1,
+      "operation": {
+
+      },
+      "valueFrom": ""
+    },
+    {
+      "identifier": "id35",
+      "random": {
+
+      },
+      "instruction": "DECLARAVARIABLE",
+      "type": 3,
+      "value": -1,
+      "operation": {
+        "random": {
+
+        },
+        "type": 0,
+        "value": -1,
+        "operation": {
+          "random": {
+
+          },
+          "type": 1,
+          "value": 78,
+          "operation": {
+            "random": {
+
+            },
+            "type": 1,
+            "value": 78,
+            "operation": {
+
+            },
+            "valueFrom": "",
+            "operator": "+",
+            "isBracket": false
+          },
+          "valueFrom": "",
+          "operator": "",
+          "isBracket": false
+        },
+        "valueFrom": "",
+        "operator": "",
+        "isBracket": true
+      },
+      "valueFrom": ""
+    },
+    {
+      "identifier": "id36",
+      "random": {
+
+      },
+      "instruction": "DECLARAVARIABLE",
+      "type": 3,
+      "value": -1,
+      "operation": {
+        "random": {
+
+        },
+        "type": 1,
+        "value": 78,
+        "operation": {
+          "random": {
+
+          },
+          "type": 0,
+          "value": -1,
+          "operation": {
+            "random": {
+
+            },
+            "type": 0,
+            "value": -1,
+            "operation": {
+              "random": {
+
+              },
+              "type": 1,
+              "value": 78,
+              "operation": {
+                "random": {
+
+                },
+                "type": 2,
+                "value": -1,
+                "operation": {
+
+                },
+                "valueFrom": "id60",
+                "operator": "+",
+                "isBracket": false
+              },
+              "valueFrom": "",
+              "operator": "",
+              "isBracket": false
+            },
+            "valueFrom": "",
+            "operator": "",
+            "isBracket": true
+          },
+          "valueFrom": "",
+          "operator": "+",
+          "isBracket": true
+        },
+        "valueFrom": "",
+        "operator": "",
+        "isBracket": false
+      },
+      "valueFrom": ""
+    },
+    {
+      "identifier": "id37",
+      "random": {
+
+      },
+      "instruction": "DECLARAVARIABLE",
+      "type": 3,
+      "value": -1,
+      "operation": {
+        "random": {
+
+        },
+        "type": 0,
+        "value": -1,
+        "operation": {
+          "random": {
+
+          },
+          "type": 1,
+          "value": 78,
+          "operation": {
+            "random": {
+
+            },
+            "type": 1,
+            "value": 78,
+            "operation": {
+
+            },
+            "valueFrom": "",
+            "operator": "+",
+            "isBracket": false
+          },
+          "valueFrom": "",
+          "operator": "",
+          "isBracket": false
+        },
+        "valueFrom": "",
+        "operator": "",
+        "isBracket": true
+      },
+      "valueFrom": ""
+    },
+    {
+      "identifier": "id38",
+      "random": {
+
+      },
+      "instruction": "DECLARAVARIABLE",
+      "type": 3,
+      "value": -1,
+      "operation": {
+        "random": {
+
+        },
+        "type": 0,
+        "value": -1,
+        "operation": {
+          "random": {
+
+          },
+          "type": 1,
+          "value": 78,
+          "operation": {
+            "random": {
+
+            },
+            "type": 1,
+            "value": 78,
+            "operation": {
+              "random": {
+
+              },
+              "type": 2,
+              "value": -1,
+              "operation": {
+
+              },
+              "valueFrom": "id59",
+              "operator": "+",
+              "isBracket": false
+            },
+            "valueFrom": "",
+            "operator": "+",
+            "isBracket": false
+          },
+          "valueFrom": "",
+          "operator": "",
+          "isBracket": false
+        },
+        "valueFrom": "",
+        "operator": "",
+        "isBracket": true
+      },
+      "valueFrom": ""
+    },
+    {
+      "identifier": "id39",
+      "random": {
+
+      },
+      "instruction": "DECLARAVARIABLE",
+      "type": 3,
+      "value": -1,
+      "operation": {
+        "random": {
+
+        },
+        "type": 0,
+        "value": -1,
+        "operation": {
+          "random": {
+
+          },
+          "type": 2,
+          "value": -1,
+          "operation": {
+            "random": {
+
+            },
+            "type": 1,
+            "value": 89,
+            "operation": {
+              "random": {
+
+              },
+              "type": 0,
+              "value": -1,
+              "operation": {
+                "random": {
+                  "random": {
+
+                  },
+                  "type": 0,
+                  "value": -1,
+                  "operation": {
+                    "random": {
+                      "random": {
+
+                      },
+                      "type": 2,
+                      "value": -1,
+                      "operation": {
+
+                      },
+                      "valueFrom": "id41",
+                      "operator": "-",
+                      "isBracket": false
+                    },
+                    "type": 0,
+                    "value": -1,
+                    "operation": {
+                      "random": {
+
+                      },
+                      "type": 1,
+                      "value": 51155,
+                      "operation": {
+                        "random": {
+                          "instruction": "RANDOM",
+                          "from": 4,
+                          "to": 9,
+                          "between": true
+                        },
+                        "type": 3,
+                        "value": -1,
+                        "operation": {
+
+                        },
+                        "valueFrom": "",
+                        "operator": "+",
+                        "isBracket": false
+                      },
+                      "valueFrom": "",
+                      "operator": "",
+                      "isBracket": false
+                    },
+                    "valueFrom": "",
+                    "operator": "",
+                    "isBracket": true
+                  },
+                  "valueFrom": "",
+                  "operator": "+",
+                  "isBracket": true
+                },
+                "type": 0,
+                "value": -1,
+                "operation": {
+                  "random": {
+
+                  },
+                  "type": 1,
+                  "value": 200,
+                  "operation": {
+                    "random": {
+
+                    },
+                    "type": 1,
+                    "value": 78,
+                    "operation": {
+                      "random": {
+                        "instruction": "RANDOM",
+                        "from": -1,
+                        "to": -1,
+                        "between": false
+                      },
+                      "type": 3,
+                      "value": -1,
+                      "operation": {
+
+                      },
+                      "valueFrom": "",
+                      "operator": "*",
+                      "isBracket": false
+                    },
+                    "valueFrom": "",
+                    "operator": "*",
+                    "isBracket": false
+                  },
+                  "valueFrom": "",
+                  "operator": "",
+                  "isBracket": false
+                },
+                "valueFrom": "",
+                "operator": "",
+                "isBracket": true
+              },
+              "valueFrom": "",
+              "operator": "+",
+              "isBracket": true
+            },
+            "valueFrom": "",
+            "operator": "+",
+            "isBracket": false
+          },
+          "valueFrom": "id40",
+          "operator": "",
+          "isBracket": false
+        },
+        "valueFrom": "",
+        "operator": "",
+        "isBracket": true
+      },
+      "valueFrom": ""
+    },
+    {
+      "identifier": "id43",
+      "random": {
+
+      },
+      "instruction": "DECLARAVARIABLE",
+      "type": 4,
+      "value": -1,
+      "operation": {
+
+      },
+      "valueFrom": "id42"
+    },
+    {
+      "identifier": "id44",
+      "random": {
+
+      },
+      "instruction": "DECLARAVARIABLE",
+      "type": 3,
+      "value": -1,
+      "operation": {
+        "random": {
+
+        },
+        "type": 0,
+        "value": -1,
+        "operation": {
+          "random": {
+
+          },
+          "type": 2,
+          "value": -1,
+          "operation": {
+            "random": {
+
+            },
+            "type": 1,
+            "value": 89,
+            "operation": {
+
+            },
+            "valueFrom": "",
+            "operator": "+",
+            "isBracket": false
+          },
+          "valueFrom": "id45",
+          "operator": "",
+          "isBracket": false
+        },
+        "valueFrom": "",
+        "operator": "",
+        "isBracket": true
+      },
+      "valueFrom": ""
+    },
+    {
+      "identifier": "id53",
+      "random": {
+
+      },
+      "instruction": "DECLARAVARIABLE",
+      "type": 3,
+      "value": -1,
+      "operation": {
+        "random": {
+
+        },
+        "type": 0,
+        "value": -1,
+        "operation": {
+          "random": {
+
+          },
+          "type": 2,
+          "value": -1,
+          "operation": {
+            "random": {
+
+            },
+            "type": 1,
+            "value": 89,
+            "operation": {
+              "random": {
+
+              },
+              "type": 2,
+              "value": -1,
+              "operation": {
+
+              },
+              "valueFrom": "id46",
+              "operator": "+",
+              "isBracket": false
+            },
+            "valueFrom": "",
+            "operator": "+",
+            "isBracket": false
+          },
+          "valueFrom": "id47",
+          "operator": "",
+          "isBracket": false
+        },
+        "valueFrom": "",
+        "operator": "",
+        "isBracket": true
+      },
+      "valueFrom": ""
+    },
+    {
+      "identifier": "id52",
+      "random": {
+
+      },
+      "instruction": "DECLARAVARIABLE",
+      "type": 3,
+      "value": -1,
+      "operation": {
+        "random": {
+
+        },
+        "type": 0,
+        "value": -1,
+        "operation": {
+          "random": {
+
+          },
+          "type": 2,
+          "value": -1,
+          "operation": {
+            "random": {
+
+            },
+            "type": 1,
+            "value": 89,
+            "operation": {
+
+            },
+            "valueFrom": "",
+            "operator": "+",
+            "isBracket": false
+          },
+          "valueFrom": "id48",
+          "operator": "",
+          "isBracket": false
+        },
+        "valueFrom": "",
+        "operator": "",
+        "isBracket": true
+      },
+      "valueFrom": ""
+    },
+    {
+      "identifier": "id51",
+      "random": {
+
+      },
+      "instruction": "DECLARAVARIABLE",
+      "type": 3,
+      "value": -1,
+      "operation": {
+        "random": {
+          "random": {
+
+          },
+          "type": 2,
+          "value": -1,
+          "operation": {
+
+          },
+          "valueFrom": "id50",
+          "operator": "+",
+          "isBracket": false
+        },
+        "type": 0,
+        "value": -1,
+        "operation": {
+          "random": {
+
+          },
+          "type": 2,
+          "value": -1,
+          "operation": {
+            "random": {
+
+            },
+            "type": 1,
+            "value": 89,
+            "operation": {
+
+            },
+            "valueFrom": "",
+            "operator": "+",
+            "isBracket": false
+          },
+          "valueFrom": "id49",
+          "operator": "",
+          "isBracket": false
+        },
+        "valueFrom": "",
+        "operator": "",
+        "isBracket": true
+      },
+      "valueFrom": ""
+    },
+    {
+      "identifier": "id54",
+      "random": {
+
+      },
+      "instruction": "DECLARAVARIABLE",
+      "type": 0,
+      "value": -1,
+      "operation": {
+
+      },
+      "valueFrom": ""
+    },
+    {
+      "identifier": "id55",
+      "random": {
+
+      },
+      "instruction": "DECLARAVARIABLE",
+      "type": 0,
+      "value": -1,
+      "operation": {
+
+      },
+      "valueFrom": ""
+    },
+    {
+      "identifier": "id58",
+      "random": {
+
+      },
+      "instruction": "DECLARAVARIABLE",
+      "type": 0,
+      "value": -1,
+      "operation": {
+
+      },
+      "valueFrom": ""
+    },
+    {
+      "identifier": "id57",
+      "random": {
+
+      },
+      "instruction": "DECLARAVARIABLE",
+      "type": 0,
+      "value": -1,
+      "operation": {
+
+      },
+      "valueFrom": ""
+    },
+    {
+      "identifier": "id56",
+      "random": {
+
+      },
+      "instruction": "DECLARAVARIABLE",
+      "type": 0,
+      "value": -1,
+      "operation": {
+
+      },
+      "valueFrom": ""
+    },
+    {
+      "identifier": "id",
+      "instruction": "MODIFICAVARIABLE",
+      "valueFrom": {
+        "random": {
+
+        },
+        "type": 1,
+        "value": 78,
+        "operation": {
+
+        },
+        "valueFrom": ""
+      }
+    },
+    {
+      "identifier": "id",
+      "instruction": "MODIFICAVARIABLE",
+      "valueFrom": {
+        "random": {
+
+        },
+        "type": 3,
+        "value": -1,
+        "operation": {
+          "random": {
+
+          },
+          "type": 0,
+          "value": -1,
+          "operation": {
+            "random": {
+
+            },
+            "type": 1,
+            "value": 78,
+            "operation": {
+              "random": {
+
+              },
+              "type": 1,
+              "value": 78,
+              "operation": {
+
+              },
+              "valueFrom": "",
+              "operator": "+",
+              "isBracket": false
+            },
+            "valueFrom": "",
+            "operator": "",
+            "isBracket": false
+          },
+          "valueFrom": "",
+          "operator": "",
+          "isBracket": true
+        },
+        "valueFrom": ""
+      }
+    },
+    {
+      "identifier": "id",
+      "instruction": "MODIFICAVARIABLE",
+      "valueFrom": {
+        "random": {
+
+        },
+        "type": 3,
+        "value": -1,
+        "operation": {
+          "random": {
+
+          },
+          "type": 1,
+          "value": 78,
+          "operation": {
+            "random": {
+
+            },
+            "type": 0,
+            "value": -1,
+            "operation": {
+              "random": {
+
+              },
+              "type": 0,
+              "value": -1,
+              "operation": {
+                "random": {
+
+                },
+                "type": 1,
+                "value": 78,
+                "operation": {
+                  "random": {
+
+                  },
+                  "type": 2,
+                  "value": -1,
+                  "operation": {
+
+                  },
+                  "valueFrom": "id",
+                  "operator": "+",
+                  "isBracket": false
+                },
+                "valueFrom": "",
+                "operator": "",
+                "isBracket": false
+              },
+              "valueFrom": "",
+              "operator": "",
+              "isBracket": true
+            },
+            "valueFrom": "",
+            "operator": "+",
+            "isBracket": true
+          },
+          "valueFrom": "",
+          "operator": "",
+          "isBracket": false
+        },
+        "valueFrom": ""
+      }
+    },
+    {
+      "identifier": "id",
+      "instruction": "MODIFICAVARIABLE",
+      "valueFrom": {
+        "random": {
+
+        },
+        "type": 3,
+        "value": -1,
+        "operation": {
+          "random": {
+
+          },
+          "type": 0,
+          "value": -1,
+          "operation": {
+            "random": {
+
+            },
+            "type": 1,
+            "value": 78,
+            "operation": {
+              "random": {
+
+              },
+              "type": 1,
+              "value": 78,
+              "operation": {
+
+              },
+              "valueFrom": "",
+              "operator": "+",
+              "isBracket": false
+            },
+            "valueFrom": "",
+            "operator": "",
+            "isBracket": false
+          },
+          "valueFrom": "",
+          "operator": "",
+          "isBracket": true
+        },
+        "valueFrom": ""
+      }
+    },
+    {
+      "identifier": "id",
+      "instruction": "MODIFICAVARIABLE",
+      "valueFrom": {
+        "random": {
+
+        },
+        "type": 3,
+        "value": -1,
+        "operation": {
+          "random": {
+
+          },
+          "type": 0,
+          "value": -1,
+          "operation": {
+            "random": {
+
+            },
+            "type": 1,
+            "value": 78,
+            "operation": {
+              "random": {
+
+              },
+              "type": 1,
+              "value": 78,
+              "operation": {
+                "random": {
+
+                },
+                "type": 2,
+                "value": -1,
+                "operation": {
+
+                },
+                "valueFrom": "id",
+                "operator": "+",
+                "isBracket": false
+              },
+              "valueFrom": "",
+              "operator": "+",
+              "isBracket": false
+            },
+            "valueFrom": "",
+            "operator": "",
+            "isBracket": false
+          },
+          "valueFrom": "",
+          "operator": "",
+          "isBracket": true
+        },
+        "valueFrom": ""
+      }
+    },
+    {
+      "identifier": "id",
+      "instruction": "MODIFICAVARIABLE",
+      "valueFrom": {
+        "random": {
+
+        },
+        "type": 4,
+        "value": -1,
+        "operation": {
+
+        },
+        "valueFrom": "id"
+      }
+    },
+    {
+      "identifier": "id",
+      "instruction": "MODIFICAVARIABLE",
+      "valueFrom": {
+        "random": {
+
+        },
+        "type": 3,
+        "value": -1,
+        "operation": {
+          "random": {
+
+          },
+          "type": 0,
+          "value": -1,
+          "operation": {
+            "random": {
+
+            },
+            "type": 2,
+            "value": -1,
+            "operation": {
+              "random": {
+
+              },
+              "type": 1,
+              "value": 89,
+              "operation": {
+
+              },
+              "valueFrom": "",
+              "operator": "+",
+              "isBracket": false
+            },
+            "valueFrom": "id",
+            "operator": "",
+            "isBracket": false
+          },
+          "valueFrom": "",
+          "operator": "",
+          "isBracket": true
+        },
+        "valueFrom": ""
+      }
+    },
+    {
+      "identifier": "id",
+      "instruction": "MODIFICAVARIABLE",
+      "valueFrom": {
+        "random": {
+
+        },
+        "type": 3,
+        "value": -1,
+        "operation": {
+          "random": {
+
+          },
+          "type": 0,
+          "value": -1,
+          "operation": {
+            "random": {
+
+            },
+            "type": 2,
+            "value": -1,
+            "operation": {
+              "random": {
+
+              },
+              "type": 1,
+              "value": 89,
+              "operation": {
+                "random": {
+
+                },
+                "type": 0,
+                "value": -1,
+                "operation": {
+                  "random": {
+                    "random": {
+
+                    },
+                    "type": 0,
+                    "value": -1,
+                    "operation": {
+                      "random": {
+                        "random": {
+
+                        },
+                        "type": 2,
+                        "value": -1,
+                        "operation": {
+
+                        },
+                        "valueFrom": "id",
+                        "operator": "-",
+                        "isBracket": false
+                      },
+                      "type": 0,
+                      "value": -1,
+                      "operation": {
+                        "random": {
+
+                        },
+                        "type": 1,
+                        "value": 51155,
+                        "operation": {
+                          "random": {
+
+                          },
+                          "type": 2,
+                          "value": -1,
+                          "operation": {
+
+                          },
+                          "valueFrom": "ssd",
+                          "operator": "+",
+                          "isBracket": false
+                        },
+                        "valueFrom": "",
+                        "operator": "",
+                        "isBracket": false
+                      },
+                      "valueFrom": "",
+                      "operator": "",
+                      "isBracket": true
+                    },
+                    "valueFrom": "",
+                    "operator": "+",
+                    "isBracket": true
+                  },
+                  "type": 0,
+                  "value": -1,
+                  "operation": {
+                    "random": {
+
+                    },
+                    "type": 1,
+                    "value": 200,
+                    "operation": {
+                      "random": {
+
+                      },
+                      "type": 1,
+                      "value": 78,
+                      "operation": {
+                        "random": {
+
+                        },
+                        "type": 2,
+                        "value": -1,
+                        "operation": {
+
+                        },
+                        "valueFrom": "er",
+                        "operator": "*",
+                        "isBracket": false
+                      },
+                      "valueFrom": "",
+                      "operator": "*",
+                      "isBracket": false
+                    },
+                    "valueFrom": "",
+                    "operator": "",
+                    "isBracket": false
+                  },
+                  "valueFrom": "",
+                  "operator": "",
+                  "isBracket": true
+                },
+                "valueFrom": "",
+                "operator": "+",
+                "isBracket": true
+              },
+              "valueFrom": "",
+              "operator": "+",
+              "isBracket": false
+            },
+            "valueFrom": "id",
+            "operator": "",
+            "isBracket": false
+          },
+          "valueFrom": "",
+          "operator": "",
+          "isBracket": true
+        },
+        "valueFrom": ""
+      }
+    },
+    {
+      "identifier": "id",
+      "instruction": "MODIFICAVARIABLE",
+      "valueFrom": {
+        "random": {
+
+        },
+        "type": 3,
+        "value": -1,
+        "operation": {
+          "random": {
+
+          },
+          "type": 0,
+          "value": -1,
+          "operation": {
+            "random": {
+
+            },
+            "type": 2,
+            "value": -1,
+            "operation": {
+              "random": {
+
+              },
+              "type": 1,
+              "value": 89,
+              "operation": {
+
+              },
+              "valueFrom": "",
+              "operator": "+",
+              "isBracket": false
+            },
+            "valueFrom": "id",
+            "operator": "",
+            "isBracket": false
+          },
+          "valueFrom": "",
+          "operator": "",
+          "isBracket": true
+        },
+        "valueFrom": ""
+      }
+    },
+    {
+      "identifier": "id",
+      "instruction": "MODIFICAVARIABLE",
+      "valueFrom": {
+        "random": {
+
+        },
+        "type": 3,
+        "value": -1,
+        "operation": {
+          "random": {
+            "random": {
+
+            },
+            "type": 2,
+            "value": -1,
+            "operation": {
+
+            },
+            "valueFrom": "id",
+            "operator": "+",
+            "isBracket": false
+          },
+          "type": 0,
+          "value": -1,
+          "operation": {
+            "random": {
+
+            },
+            "type": 2,
+            "value": -1,
+            "operation": {
+              "random": {
+
+              },
+              "type": 1,
+              "value": 89,
+              "operation": {
+
+              },
+              "valueFrom": "",
+              "operator": "+",
+              "isBracket": false
+            },
+            "valueFrom": "id",
+            "operator": "",
+            "isBracket": false
+          },
+          "valueFrom": "",
+          "operator": "",
+          "isBracket": true
+        },
+        "valueFrom": ""
+      }
+    },
+    {
+      "instruction": "AVANZAR",
+      "parameter": {
+        "identifier": "",
+        "type": 0,
+        "value": -1,
+        "valueFrom": {
+
+        }
+      }
+    },
+    {
+      "instruction": "AVANZAR",
+      "parameter": {
+        "identifier": "",
+        "type": 3,
+        "value": -1,
+        "valueFrom": {
+          "instruction": "RANDOM",
+          "from": 7,
+          "to": 98,
+          "between": true
+        }
+      }
+    },
+    {
+      "instruction": "AVANZAR",
+      "parameter": {
+        "identifier": "",
+        "type": 3,
+        "value": -1,
+        "valueFrom": {
+          "instruction": "RANDOM",
+          "from": -1,
+          "to": -1,
+          "between": false
+        }
+      }
+    },
+    {
+      "instruction": "AVANZAR",
+      "parameter": {
+        "identifier": "",
+        "type": 2,
+        "value": 5,
+        "valueFrom": {
+
+        }
+      }
+    },
+    {
+      "instruction": "AVANZAR",
+      "parameter": {
+        "identifier": "id",
+        "type": 1,
+        "value": -1,
+        "valueFrom": {
+
+        }
+      }
+    },
+    {
+      "instruction": "AVANZAR",
+      "parameter": {
+        "identifier": "",
+        "type": 4,
+        "value": -1,
+        "valueFrom": {
+          "random": {
+
+          },
+          "type": 1,
+          "value": 5,
+          "operation": {
+            "random": {
+
+            },
+            "type": 1,
+            "value": 78,
+            "operation": {
+
+            },
+            "valueFrom": "",
+            "operator": "+",
+            "isBracket": false
+          },
+          "valueFrom": "",
+          "operator": "",
+          "isBracket": false
+        }
+      }
+    },
+    {
+      "instruction": "AVANZAR",
+      "parameter": {
+        "identifier": "",
+        "type": 4,
+        "value": -1,
+        "valueFrom": {
+          "random": {
+
+          },
+          "type": 1,
+          "value": 5,
+          "operation": {
+            "random": {
+
+            },
+            "type": 1,
+            "value": 78,
+            "operation": {
+              "random": {
+
+              },
+              "type": 0,
+              "value": -1,
+              "operation": {
+                "random": {
+
+                },
+                "type": 0,
+                "value": -1,
+                "operation": {
+                  "random": {
+
+                  },
+                  "type": 2,
+                  "value": -1,
+                  "operation": {
+                    "random": {
+
+                    },
+                    "type": 1,
+                    "value": 96,
+                    "operation": {
+
+                    },
+                    "valueFrom": "",
+                    "operator": "+",
+                    "isBracket": false
+                  },
+                  "valueFrom": "id",
+                  "operator": "",
+                  "isBracket": false
+                },
+                "valueFrom": "",
+                "operator": "",
+                "isBracket": true
+              },
+              "valueFrom": "",
+              "operator": "+",
+              "isBracket": true
+            },
+            "valueFrom": "",
+            "operator": "+",
+            "isBracket": false
+          },
+          "valueFrom": "",
+          "operator": "",
+          "isBracket": false
+        }
+      }
+    },
+    {
+      "instruction": "ESPERA",
+      "parameter": {
+        "identifier": "",
+        "type": 0,
+        "value": -1,
+        "valueFrom": {
+
+        }
+      }
+    },
+    {
+      "instruction": "ESPERA",
+      "parameter": {
+        "identifier": "",
+        "type": 3,
+        "value": -1,
+        "valueFrom": {
+          "instruction": "RANDOM",
+          "from": 7,
+          "to": 98,
+          "between": true
+        }
+      }
+    },
+    {
+      "instruction": "ESPERA",
+      "parameter": {
+        "identifier": "",
+        "type": 3,
+        "value": -1,
+        "valueFrom": {
+          "instruction": "RANDOM",
+          "from": -1,
+          "to": -1,
+          "between": false
+        }
+      }
+    },
+    {
+      "instruction": "ESPERA",
+      "parameter": {
+        "identifier": "",
+        "type": 2,
+        "value": 5,
+        "valueFrom": {
+
+        }
+      }
+    },
+    {
+      "instruction": "ESPERA",
+      "parameter": {
+        "identifier": "id",
+        "type": 1,
+        "value": -1,
+        "valueFrom": {
+
+        }
+      }
+    },
+    {
+      "instruction": "ESPERA",
+      "parameter": {
+        "identifier": "",
+        "type": 4,
+        "value": -1,
+        "valueFrom": {
+          "random": {
+
+          },
+          "type": 1,
+          "value": 5,
+          "operation": {
+            "random": {
+
+            },
+            "type": 1,
+            "value": 78,
+            "operation": {
+
+            },
+            "valueFrom": "",
+            "operator": "+",
+            "isBracket": false
+          },
+          "valueFrom": "",
+          "operator": "",
+          "isBracket": false
+        }
+      }
+    },
+    {
+      "instruction": "ESPERA",
+      "parameter": {
+        "identifier": "",
+        "type": 4,
+        "value": -1,
+        "valueFrom": {
+          "random": {
+
+          },
+          "type": 1,
+          "value": 5,
+          "operation": {
+            "random": {
+
+            },
+            "type": 1,
+            "value": 78,
+            "operation": {
+              "random": {
+
+              },
+              "type": 0,
+              "value": -1,
+              "operation": {
+                "random": {
+
+                },
+                "type": 0,
+                "value": -1,
+                "operation": {
+                  "random": {
+
+                  },
+                  "type": 2,
+                  "value": -1,
+                  "operation": {
+                    "random": {
+
+                    },
+                    "type": 1,
+                    "value": 96,
+                    "operation": {
+
+                    },
+                    "valueFrom": "",
+                    "operator": "+",
+                    "isBracket": false
+                  },
+                  "valueFrom": "id",
+                  "operator": "",
+                  "isBracket": false
+                },
+                "valueFrom": "",
+                "operator": "",
+                "isBracket": true
+              },
+              "valueFrom": "",
+              "operator": "+",
+              "isBracket": true
+            },
+            "valueFrom": "",
+            "operator": "+",
+            "isBracket": false
+          },
+          "valueFrom": "",
+          "operator": "",
+          "isBracket": false
+        }
+      }
+    },
+    {
+      "instruction": "IZQUIERDA",
+      "parameter": {
+        "identifier": "",
+        "type": 0,
+        "value": -1,
+        "valueFrom": {
+
+        }
+      }
+    },
+    {
+      "instruction": "IZQUIERDA",
+      "parameter": {
+        "identifier": "",
+        "type": 3,
+        "value": -1,
+        "valueFrom": {
+          "instruction": "RANDOM",
+          "from": 7,
+          "to": 98,
+          "between": true
+        }
+      }
+    },
+    {
+      "instruction": "IZQUIERDA",
+      "parameter": {
+        "identifier": "",
+        "type": 3,
+        "value": -1,
+        "valueFrom": {
+          "instruction": "RANDOM",
+          "from": -1,
+          "to": -1,
+          "between": false
+        }
+      }
+    },
+    {
+      "instruction": "IZQUIERDA",
+      "parameter": {
+        "identifier": "",
+        "type": 2,
+        "value": 5,
+        "valueFrom": {
+
+        }
+      }
+    },
+    {
+      "instruction": "IZQUIERDA",
+      "parameter": {
+        "identifier": "id",
+        "type": 1,
+        "value": -1,
+        "valueFrom": {
+
+        }
+      }
+    },
+    {
+      "instruction": "IZQUIERDA",
+      "parameter": {
+        "identifier": "",
+        "type": 4,
+        "value": -1,
+        "valueFrom": {
+          "random": {
+
+          },
+          "type": 1,
+          "value": 5,
+          "operation": {
+            "random": {
+
+            },
+            "type": 1,
+            "value": 78,
+            "operation": {
+
+            },
+            "valueFrom": "",
+            "operator": "+",
+            "isBracket": false
+          },
+          "valueFrom": "",
+          "operator": "",
+          "isBracket": false
+        }
+      }
+    },
+    {
+      "instruction": "IZQUIERDA",
+      "parameter": {
+        "identifier": "",
+        "type": 4,
+        "value": -1,
+        "valueFrom": {
+          "random": {
+
+          },
+          "type": 1,
+          "value": 5,
+          "operation": {
+            "random": {
+
+            },
+            "type": 1,
+            "value": 78,
+            "operation": {
+              "random": {
+
+              },
+              "type": 0,
+              "value": -1,
+              "operation": {
+                "random": {
+
+                },
+                "type": 0,
+                "value": -1,
+                "operation": {
+                  "random": {
+
+                  },
+                  "type": 2,
+                  "value": -1,
+                  "operation": {
+                    "random": {
+
+                    },
+                    "type": 1,
+                    "value": 96,
+                    "operation": {
+
+                    },
+                    "valueFrom": "",
+                    "operator": "+",
+                    "isBracket": false
+                  },
+                  "valueFrom": "id",
+                  "operator": "",
+                  "isBracket": false
+                },
+                "valueFrom": "",
+                "operator": "",
+                "isBracket": true
+              },
+              "valueFrom": "",
+              "operator": "+",
+              "isBracket": true
+            },
+            "valueFrom": "",
+            "operator": "+",
+            "isBracket": false
+          },
+          "valueFrom": "",
+          "operator": "",
+          "isBracket": false
+        }
+      }
+    },
+    {
+      "instruction": "DERECHA",
+      "parameter": {
+        "identifier": "",
+        "type": 0,
+        "value": -1,
+        "valueFrom": {
+
+        }
+      }
+    },
+    {
+      "instruction": "DERECHA",
+      "parameter": {
+        "identifier": "",
+        "type": 3,
+        "value": -1,
+        "valueFrom": {
+          "instruction": "RANDOM",
+          "from": 7,
+          "to": 98,
+          "between": true
+        }
+      }
+    },
+    {
+      "instruction": "DERECHA",
+      "parameter": {
+        "identifier": "",
+        "type": 3,
+        "value": -1,
+        "valueFrom": {
+          "instruction": "RANDOM",
+          "from": -1,
+          "to": -1,
+          "between": false
+        }
+      }
+    },
+    {
+      "instruction": "DERECHA",
+      "parameter": {
+        "identifier": "",
+        "type": 2,
+        "value": 5,
+        "valueFrom": {
+
+        }
+      }
+    },
+    {
+      "instruction": "DERECHA",
+      "parameter": {
+        "identifier": "id",
+        "type": 1,
+        "value": -1,
+        "valueFrom": {
+
+        }
+      }
+    },
+    {
+      "instruction": "DERECHA",
+      "parameter": {
+        "identifier": "",
+        "type": 4,
+        "value": -1,
+        "valueFrom": {
+          "random": {
+
+          },
+          "type": 1,
+          "value": 5,
+          "operation": {
+            "random": {
+
+            },
+            "type": 1,
+            "value": 78,
+            "operation": {
+
+            },
+            "valueFrom": "",
+            "operator": "+",
+            "isBracket": false
+          },
+          "valueFrom": "",
+          "operator": "",
+          "isBracket": false
+        }
+      }
+    },
+    {
+      "instruction": "DERECHA",
+      "parameter": {
+        "identifier": "",
+        "type": 4,
+        "value": -1,
+        "valueFrom": {
+          "random": {
+
+          },
+          "type": 1,
+          "value": 5,
+          "operation": {
+            "random": {
+
+            },
+            "type": 1,
+            "value": 78,
+            "operation": {
+              "random": {
+
+              },
+              "type": 0,
+              "value": -1,
+              "operation": {
+                "random": {
+
+                },
+                "type": 0,
+                "value": -1,
+                "operation": {
+                  "random": {
+
+                  },
+                  "type": 2,
+                  "value": -1,
+                  "operation": {
+                    "random": {
+
+                    },
+                    "type": 1,
+                    "value": 96,
+                    "operation": {
+
+                    },
+                    "valueFrom": "",
+                    "operator": "+",
+                    "isBracket": false
+                  },
+                  "valueFrom": "id",
+                  "operator": "",
+                  "isBracket": false
+                },
+                "valueFrom": "",
+                "operator": "",
+                "isBracket": true
+              },
+              "valueFrom": "",
+              "operator": "+",
+              "isBracket": true
+            },
+            "valueFrom": "",
+            "operator": "+",
+            "isBracket": false
+          },
+          "valueFrom": "",
+          "operator": "",
+          "isBracket": false
+        }
+      }
+    },
+    {
+      "identifier": "id12",
+      "instruction": "INCREMENTAVARIABLE"
+    },
+    {
+      "identifier": "id48",
+      "instruction": "DECREMENTAVARIABLE"
+    },
+    {
+      "instruction": "LLAMADAAFUNCION",
+      "parameter": [
+
+      ],
+      "name": "llamadaAFuncion"
+    },
+    {
+      "instruction": "LLAMADAAFUNCION",
+      "parameter": [
+        {
+          "identifier": "id",
+          "type": 2,
+          "value": -1,
+          "valueFrom": {
+
+          }
+        }
+      ],
+      "name": "llamadaAFuncion"
+    },
+    {
+      "instruction": "LLAMADAAFUNCION",
+      "parameter": [
+        {
+          "identifier": "",
+          "type": 1,
+          "value": 848,
+          "valueFrom": {
+
+          }
+        }
+      ],
+      "name": "llamadaAFuncion"
+    },
+    {
+      "instruction": "LLAMADAAFUNCION",
+      "parameter": [
+        {
+          "identifier": "id",
+          "type": 2,
+          "value": -1,
+          "valueFrom": {
+
+          }
+        },
+        {
+          "identifier": "",
+          "type": 1,
+          "value": 89,
+          "valueFrom": {
+
+          }
+        },
+        {
+          "identifier": "id",
+          "type": 2,
+          "value": -1,
+          "valueFrom": {
+
+          }
+        }
+      ],
+      "name": "llamadaAFuncion"
+    },
+    {
+      "instruction": "LLAMADAAFUNCION",
+      "parameter": [
+        {
+          "identifier": "",
+          "type": 3,
+          "value": -1,
+          "valueFrom": {
+            "instruction": "RANDOM",
+            "from": -1,
+            "to": -1,
+            "between": false
+          }
+        },
+        {
+          "identifier": "id",
+          "type": 2,
+          "value": -1,
+          "valueFrom": {
+
+          }
+        },
+        {
+          "identifier": "",
+          "type": 1,
+          "value": 89,
+          "valueFrom": {
+
+          }
+        }
+      ],
+      "name": "llamadaAFuncion"
+    },
+    {
+      "instruction": "LLAMADAAFUNCION",
+      "parameter": [
+        {
+          "identifier": "",
+          "type": 3,
+          "value": -1,
+          "valueFrom": {
+            "instruction": "RANDOM",
+            "from": 7,
+            "to": 95,
+            "between": true
+          }
+        },
+        {
+          "identifier": "id",
+          "type": 2,
+          "value": -1,
+          "valueFrom": {
+
+          }
+        },
+        {
+          "identifier": "",
+          "type": 1,
+          "value": 89,
+          "valueFrom": {
+
+          }
+        }
+      ],
+      "name": "llamadaAFuncion"
+    },
+    {
+      "instruction": "LLAMADAAFUNCION",
+      "parameter": [
+        {
+          "identifier": "",
+          "type": 4,
+          "value": -1,
+          "valueFrom": {
+            "random": {
+
+            },
+            "type": 1,
+            "value": 848,
+            "operation": {
+              "random": {
+
+              },
+              "type": 1,
+              "value": 78,
+              "operation": {
+                "random": {
+
+                },
+                "type": 2,
+                "value": -1,
+                "operation": {
+
+                },
+                "valueFrom": "id",
+                "operator": "+",
+                "isBracket": false
+              },
+              "valueFrom": "",
+              "operator": "+",
+              "isBracket": false
+            },
+            "valueFrom": "",
+            "operator": "",
+            "isBracket": false
+          }
+        }
+      ],
+      "name": "llamadaAFuncion"
+    },
+    {
+      "instruction": "LLAMADAAFUNCION",
+      "parameter": [
+        {
+          "identifier": "",
+          "type": 4,
+          "value": -1,
+          "valueFrom": {
+            "random": {
+
+            },
+            "type": 2,
+            "value": -1,
+            "operation": {
+              "random": {
+
+              },
+              "type": 0,
+              "value": -1,
+              "operation": {
+                "random": {
+
+                },
+                "type": 0,
+                "value": -1,
+                "operation": {
+                  "random": {
+
+                  },
+                  "type": 1,
+                  "value": 78,
+                  "operation": {
+                    "random": {
+
+                    },
+                    "type": 1,
+                    "value": 3,
+                    "operation": {
+
+                    },
+                    "valueFrom": "",
+                    "operator": "/",
+                    "isBracket": false
+                  },
+                  "valueFrom": "",
+                  "operator": "",
+                  "isBracket": false
+                },
+                "valueFrom": "",
+                "operator": "",
+                "isBracket": true
+              },
+              "valueFrom": "",
+              "operator": "+",
+              "isBracket": true
+            },
+            "valueFrom": "id",
+            "operator": "",
+            "isBracket": false
+          }
+        },
+        {
+          "identifier": "",
+          "type": 4,
+          "value": -1,
+          "valueFrom": {
+            "random": {
+              "random": {
+
+              },
+              "type": 1,
+              "value": 1,
+              "operation": {
+
+              },
+              "valueFrom": "",
+              "operator": "+",
+              "isBracket": false
+            },
+            "type": 0,
+            "value": -1,
+            "operation": {
+              "random": {
+
+              },
+              "type": 2,
+              "value": -1,
+              "operation": {
+                "random": {
+
+                },
+                "type": 1,
+                "value": 78,
+                "operation": {
+
+                },
+                "valueFrom": "",
+                "operator": "+",
+                "isBracket": false
+              },
+              "valueFrom": "id",
+              "operator": "",
+              "isBracket": false
+            },
+            "valueFrom": "",
+            "operator": "",
+            "isBracket": true
+          }
+        },
+        {
+          "identifier": "",
+          "type": 4,
+          "value": -1,
+          "valueFrom": {
+            "random": {
+
+            },
+            "type": 2,
+            "value": -1,
+            "operation": {
+              "random": {
+
+              },
+              "type": 1,
+              "value": 1,
+              "operation": {
+
+              },
+              "valueFrom": "",
+              "operator": "+",
+              "isBracket": false
+            },
+            "valueFrom": "id",
+            "operator": "",
+            "isBracket": false
+          }
+        }
+      ],
+      "name": "llamadaAFuncion"
+    },
+    {
+      "instruction": "IMPRIMIRCADENA",
+      "parameter": [
+        {
+          "string": "",
+          "type": 0,
+          "valueFrom": "id45"
+        }
+      ]
+    },
+    {
+      "instruction": "IMPRIMIRCADENA",
+      "parameter": [
+        {
+          "string": "\"Cadena: \"",
+          "type": 1,
+          "valueFrom": ""
+        }
+      ]
+    },
+    {
+      "instruction": "IMPRIMIRCADENA",
+      "parameter": [
+        {
+          "string": "",
+          "type": 0,
+          "valueFrom": "id46"
+        },
+        {
+          "string": "\"El ID es \"",
+          "type": 1,
+          "valueFrom": ""
+        }
+      ]
+    },
+    {
+      "instruction": "IMPRIMIRCADENA",
+      "parameter": [
+        {
+          "string": "\"Valor: \"",
+          "type": 1,
+          "valueFrom": ""
+        },
+        {
+          "string": "",
+          "type": 0,
+          "valueFrom": "id48"
+        }
+      ]
+    },
+    {
+      "instruction": "IMPRIMIRCADENA",
+      "parameter": [
+        {
+          "string": "",
+          "type": 0,
+          "valueFrom": "id49"
+        },
+        {
+          "string": "\" es distinto de \"",
+          "type": 1,
+          "valueFrom": ""
+        },
+        {
+          "string": "",
+          "type": 0,
+          "valueFrom": "id50"
+        }
+      ]
+    },
+    {
+      "instruction": "IMPRIMIRCADENA",
+      "parameter": [
+        {
+          "string": "\"Resultado: \"",
+          "type": 1,
+          "valueFrom": ""
+        },
+        {
+          "string": "",
+          "type": 0,
+          "valueFrom": "id51"
+        },
+        {
+          "string": "\" final\"",
+          "type": 1,
+          "valueFrom": ""
+        }
+      ]
+    },
+    {
+      "condition": {
+        "identifier": "id",
+        "compareWith": {
+          "identifier": "",
+          "type": 2,
+          "value": 78,
+          "operator": "<",
+          "valueFrom": {
+
+          },
+          "isBracket": false
+        },
+        "type": 1,
+        "value": -1,
+        "valueFrom": {
+
+        },
+        "isBracket": false
+      },
+      "subprogram": [
+        {
+          "instruction": "LLAMADAAFUNCION",
+          "parameter": [
+
+          ],
+          "name": "llamadaAFuncion"
+        },
+        {
+          "instruction": "LLAMADAAFUNCION",
+          "parameter": [
+            {
+              "identifier": "id",
+              "type": 2,
+              "value": -1,
+              "valueFrom": {
+
+              }
+            }
+          ],
+          "name": "llamadaAFuncion"
+        }
+      ],
+      "instruction": "SI",
+      "continue": [
+
+      ]
+    },
+    {
+      "condition": {
+        "identifier": "",
+        "compareWith": {
+
+        },
+        "type": 0,
+        "value": "true",
+        "valueFrom": {
+
+        },
+        "isBracket": false
+      },
+      "subprogram": [
+        {
+          "instruction": "MURODELANTE"
+        },
+        {
+          "instruction": "MURODELANTE"
+        }
+      ],
+      "instruction": "SI",
+      "continue": [
+
+      ]
+    },
+    {
+      "condition": {
+        "identifier": "",
+        "compareWith": {
+          "identifier": "",
+          "type": 3,
+          "value": -1,
+          "operator": "<=",
+          "valueFrom": {
+            "instruction": "RANDOM",
+            "from": 7,
+            "to": 9,
+            "between": true
+          },
+          "isBracket": false
+        },
+        "type": 3,
+        "value": -1,
+        "valueFrom": {
+          "instruction": "RANDOM",
+          "from": -1,
+          "to": -1,
+          "between": false
+        },
+        "isBracket": false
+      },
+      "subprogram": [
+        {
+          "condition": {
+            "identifier": "",
+            "compareWith": {
+
+            },
+            "type": 4,
+            "value": false,
+            "valueFrom": {
+              "identifier": "",
+              "compareWith": {
+
+              },
+              "type": 0,
+              "value": "true",
+              "valueFrom": {
+
+              },
+              "isBracket": false
+            },
+            "isBracket": true
+          },
+          "subprogram": [
+            {
+              "color": "green",
+              "instruction": "PINTAR"
+            },
+            {
+              "color": "verde",
+              "instruction": "PINTAR"
+            }
+          ],
+          "instruction": "SI",
+          "continue": [
+
+          ]
+        },
+        {
+          "instruction": "OBJETODELANTE"
+        },
+        {
+          "instruction": "OBJETODELANTE"
+        }
+      ],
+      "instruction": "SI",
+      "continue": [
+
+      ]
+    },
+    {
+      "condition": {
+        "identifier": "",
+        "compareWith": {
+
+        },
+        "type": 4,
+        "value": true,
+        "valueFrom": {
+          "identifier": "id",
+          "compareWith": {
+            "identifier": "",
+            "type": 2,
+            "value": 78,
+            "operator": "<",
+            "valueFrom": {
+
+            },
+            "isBracket": false
+          },
+          "type": 1,
+          "value": -1,
+          "valueFrom": {
+
+          },
+          "isBracket": false
+        },
+        "isBracket": true
+      },
+      "subprogram": [
+        {
+          "instruction": "KABOOMDEFRENTE"
+        },
+        {
+          "instruction": "KABOOMDEFRENTE"
+        }
+      ],
+      "instruction": "SI",
+      "continue": [
+
+      ]
+    },
+    {
+      "condition": {
+        "identifier": "",
+        "compareWith": {
+
+        },
+        "type": 4,
+        "value": false,
+        "valueFrom": {
+          "identifier": "",
+          "compareWith": {
+
+          },
+          "type": 0,
+          "value": "true",
+          "valueFrom": {
+
+          },
+          "isBracket": false
+        },
+        "isBracket": true
+      },
+      "subprogram": [
+        {
+          "color": "green",
+          "instruction": "PINTAR"
+        },
+        {
+          "color": "verde",
+          "instruction": "PINTAR"
+        }
+      ],
+      "instruction": "SI",
+      "continue": [
+
+      ]
+    },
+    {
+      "condition": {
+        "identifier": "",
+        "compareWith": {
+
+        },
+        "type": 4,
+        "value": true,
+        "valueFrom": {
+          "identifier": "",
+          "compareWith": {
+            "identifier": "",
+            "type": 3,
+            "value": -1,
+            "operator": "<=",
+            "valueFrom": {
+              "instruction": "RANDOM",
+              "from": 7,
+              "to": 9,
+              "between": true
+            },
+            "isBracket": false
+          },
+          "type": 3,
+          "value": -1,
+          "valueFrom": {
+            "instruction": "RANDOM",
+            "from": -1,
+            "to": -1,
+            "between": false
+          },
+          "isBracket": false
+        },
+        "isBracket": true
+      },
+      "subprogram": [
+        {
+          "instruction": "DERECHA",
+          "parameter": {
+            "identifier": "",
+            "type": 4,
+            "value": -1,
+            "valueFrom": {
+              "random": {
+
+              },
+              "type": 1,
+              "value": 5,
+              "operation": {
+                "random": {
+
+                },
+                "type": 1,
+                "value": 78,
+                "operation": {
+
+                },
+                "valueFrom": "",
+                "operator": "+",
+                "isBracket": false
+              },
+              "valueFrom": "",
+              "operator": "",
+              "isBracket": false
+            }
+          }
+        },
+        {
+          "instruction": "DERECHA",
+          "parameter": {
+            "identifier": "",
+            "type": 4,
+            "value": -1,
+            "valueFrom": {
+              "random": {
+
+              },
+              "type": 1,
+              "value": 5,
+              "operation": {
+                "random": {
+
+                },
+                "type": 1,
+                "value": 78,
+                "operation": {
+                  "random": {
+
+                  },
+                  "type": 0,
+                  "value": -1,
+                  "operation": {
+                    "random": {
+
+                    },
+                    "type": 0,
+                    "value": -1,
+                    "operation": {
+                      "random": {
+
+                      },
+                      "type": 2,
+                      "value": -1,
+                      "operation": {
+                        "random": {
+
+                        },
+                        "type": 1,
+                        "value": 96,
+                        "operation": {
+
+                        },
+                        "valueFrom": "",
+                        "operator": "+",
+                        "isBracket": false
+                      },
+                      "valueFrom": "id",
+                      "operator": "",
+                      "isBracket": false
+                    },
+                    "valueFrom": "",
+                    "operator": "",
+                    "isBracket": true
+                  },
+                  "valueFrom": "",
+                  "operator": "+",
+                  "isBracket": true
+                },
+                "valueFrom": "",
+                "operator": "+",
+                "isBracket": false
+              },
+              "valueFrom": "",
+              "operator": "",
+              "isBracket": false
+            }
+          }
+        }
+      ],
+      "instruction": "SI",
+      "continue": [
+
+      ]
+    },
+    {
+      "condition": {
+        "identifier": "or",
+        "compareWith": {
+          "identifier": "",
+          "compareWith": {
+
+          },
+          "type": 4,
+          "value": true,
+          "valueFrom": {
+            "identifier": "",
+            "compareWith": {
+
+            },
+            "type": 0,
+            "value": "true",
+            "valueFrom": {
+
+            },
+            "isBracket": false
+          },
+          "isBracket": true
+        },
+        "type": 5,
+        "value": -1,
+        "valueFrom": {
+          "identifier": "",
+          "compareWith": {
+
+          },
+          "type": 4,
+          "value": false,
+          "valueFrom": {
+            "identifier": "",
+            "compareWith": {
+              "identifier": "",
+              "type": 2,
+              "value": 78,
+              "operator": ">=",
+              "valueFrom": {
+
+              },
+              "isBracket": false
+            },
+            "type": 3,
+            "value": -1,
+            "valueFrom": {
+              "instruction": "RANDOM",
+              "from": 7,
+              "to": 9,
+              "between": true
+            },
+            "isBracket": false
+          },
+          "isBracket": true
+        },
+        "isBracket": false
+      },
+      "subprogram": [
+        {
+          "identifier": "id",
+          "random": {
+            "instruction": "RANDOM",
+            "from": 4,
+            "to": 9,
+            "between": true
+          },
+          "instruction": "DECLARAVARIABLE",
+          "type": 2,
+          "value": -1,
+          "operation": {
+
+          },
+          "valueFrom": ""
+        },
+        {
+          "identifier": "id",
+          "random": {
+
+          },
+          "instruction": "DECLARAVARIABLE",
+          "type": 3,
+          "value": -1,
+          "operation": {
+            "random": {
+
+            },
+            "type": 0,
+            "value": -1,
+            "operation": {
+              "random": {
+
+              },
+              "type": 1,
+              "value": 78,
+              "operation": {
+                "random": {
+
+                },
+                "type": 1,
+                "value": 78,
+                "operation": {
+
+                },
+                "valueFrom": "",
+                "operator": "+",
+                "isBracket": false
+              },
+              "valueFrom": "",
+              "operator": "",
+              "isBracket": false
+            },
+            "valueFrom": "",
+            "operator": "",
+            "isBracket": true
+          },
+          "valueFrom": ""
+        }
+      ],
+      "instruction": "SI",
+      "continue": [
+
+      ]
+    },
+    {
+      "condition": {
+        "identifier": "id",
+        "compareWith": {
+          "identifier": "",
+          "type": 2,
+          "value": 78,
+          "operator": "<",
+          "valueFrom": {
+
+          },
+          "isBracket": false
+        },
+        "type": 1,
+        "value": -1,
+        "valueFrom": {
+
+        },
+        "isBracket": false
+      },
+      "subprogram": [
+        {
+          "instruction": "LLAMADAAFUNCION",
+          "parameter": [
+
+          ],
+          "name": "llamadaAFuncion"
+        },
+        {
+          "instruction": "LLAMADAAFUNCION",
+          "parameter": [
+            {
+              "identifier": "id",
+              "type": 2,
+              "value": -1,
+              "valueFrom": {
+
+              }
+            }
+          ],
+          "name": "llamadaAFuncion"
+        }
+      ],
+      "instruction": "SI",
+      "continue": [
+        {
+          "subprogram": [
+            {
+              "instruction": "MURODELANTE"
+            },
+            {
+              "instruction": "MURODELANTE"
+            }
+          ],
+          "instruction": "SINO"
+        }
+      ]
+    },
+    {
+      "condition": {
+        "identifier": "",
+        "compareWith": {
+          "identifier": "",
+          "type": 3,
+          "value": -1,
+          "operator": "<=",
+          "valueFrom": {
+            "instruction": "RANDOM",
+            "from": 7,
+            "to": 9,
+            "between": true
+          },
+          "isBracket": false
+        },
+        "type": 3,
+        "value": -1,
+        "valueFrom": {
+          "instruction": "RANDOM",
+          "from": -1,
+          "to": -1,
+          "between": false
+        },
+        "isBracket": false
+      },
+      "subprogram": [
+        {
+          "condition": {
+            "identifier": "",
+            "compareWith": {
+
+            },
+            "type": 4,
+            "value": false,
+            "valueFrom": {
+              "identifier": "",
+              "compareWith": {
+
+              },
+              "type": 0,
+              "value": "true",
+              "valueFrom": {
+
+              },
+              "isBracket": false
+            },
+            "isBracket": true
+          },
+          "subprogram": [
+            {
+              "color": "green",
+              "instruction": "PINTAR"
+            },
+            {
+              "color": "verde",
+              "instruction": "PINTAR"
+            }
+          ],
+          "instruction": "SI",
+          "continue": [
+
+          ]
+        },
+        {
+          "instruction": "OBJETODELANTE"
+        },
+        {
+          "instruction": "OBJETODELANTE"
+        }
+      ],
+      "instruction": "SI",
+      "continue": [
+        {
+          "subprogram": [
+            {
+              "instruction": "KABOOMDEFRENTE"
+            },
+            {
+              "instruction": "KABOOMDEFRENTE"
+            }
+          ],
+          "instruction": "SINO"
+        }
+      ]
+    },
+    {
+      "condition": {
+        "identifier": "",
+        "compareWith": {
+
+        },
+        "type": 4,
+        "value": false,
+        "valueFrom": {
+          "identifier": "",
+          "compareWith": {
+
+          },
+          "type": 0,
+          "value": "true",
+          "valueFrom": {
+
+          },
+          "isBracket": false
+        },
+        "isBracket": true
+      },
+      "subprogram": [
+        {
+          "color": "green",
+          "instruction": "PINTAR"
+        },
+        {
+          "color": "verde",
+          "instruction": "PINTAR"
+        }
+      ],
+      "instruction": "SI",
+      "continue": [
+        {
+          "subprogram": [
+            {
+              "instruction": "DERECHA",
+              "parameter": {
+                "identifier": "",
+                "type": 4,
+                "value": -1,
+                "valueFrom": {
+                  "random": {
+
+                  },
+                  "type": 1,
+                  "value": 5,
+                  "operation": {
+                    "random": {
+
+                    },
+                    "type": 1,
+                    "value": 78,
+                    "operation": {
+
+                    },
+                    "valueFrom": "",
+                    "operator": "+",
+                    "isBracket": false
+                  },
+                  "valueFrom": "",
+                  "operator": "",
+                  "isBracket": false
+                }
+              }
+            },
+            {
+              "instruction": "DERECHA",
+              "parameter": {
+                "identifier": "",
+                "type": 4,
+                "value": -1,
+                "valueFrom": {
+                  "random": {
+
+                  },
+                  "type": 1,
+                  "value": 5,
+                  "operation": {
+                    "random": {
+
+                    },
+                    "type": 1,
+                    "value": 78,
+                    "operation": {
+                      "random": {
+
+                      },
+                      "type": 0,
+                      "value": -1,
+                      "operation": {
+                        "random": {
+
+                        },
+                        "type": 0,
+                        "value": -1,
+                        "operation": {
+                          "random": {
+
+                          },
+                          "type": 2,
+                          "value": -1,
+                          "operation": {
+                            "random": {
+
+                            },
+                            "type": 1,
+                            "value": 96,
+                            "operation": {
+
+                            },
+                            "valueFrom": "",
+                            "operator": "+",
+                            "isBracket": false
+                          },
+                          "valueFrom": "id",
+                          "operator": "",
+                          "isBracket": false
+                        },
+                        "valueFrom": "",
+                        "operator": "",
+                        "isBracket": true
+                      },
+                      "valueFrom": "",
+                      "operator": "+",
+                      "isBracket": true
+                    },
+                    "valueFrom": "",
+                    "operator": "+",
+                    "isBracket": false
+                  },
+                  "valueFrom": "",
+                  "operator": "",
+                  "isBracket": false
+                }
+              }
+            }
+          ],
+          "instruction": "SINO"
+        }
+      ]
+    },
+    {
+      "condition": {
+        "identifier": "or",
+        "compareWith": {
+          "identifier": "",
+          "compareWith": {
+
+          },
+          "type": 4,
+          "value": true,
+          "valueFrom": {
+            "identifier": "",
+            "compareWith": {
+
+            },
+            "type": 0,
+            "value": "true",
+            "valueFrom": {
+
+            },
+            "isBracket": false
+          },
+          "isBracket": true
+        },
+        "type": 5,
+        "value": -1,
+        "valueFrom": {
+          "identifier": "",
+          "compareWith": {
+
+          },
+          "type": 4,
+          "value": false,
+          "valueFrom": {
+            "identifier": "",
+            "compareWith": {
+              "identifier": "",
+              "type": 2,
+              "value": 78,
+              "operator": ">=",
+              "valueFrom": {
+
+              },
+              "isBracket": false
+            },
+            "type": 3,
+            "value": -1,
+            "valueFrom": {
+              "instruction": "RANDOM",
+              "from": 7,
+              "to": 9,
+              "between": true
+            },
+            "isBracket": false
+          },
+          "isBracket": true
+        },
+        "isBracket": false
+      },
+      "subprogram": [
+        {
+          "identifier": "id",
+          "random": {
+            "instruction": "RANDOM",
+            "from": 4,
+            "to": 9,
+            "between": true
+          },
+          "instruction": "DECLARAVARIABLE",
+          "type": 2,
+          "value": -1,
+          "operation": {
+
+          },
+          "valueFrom": ""
+        },
+        {
+          "identifier": "id",
+          "random": {
+
+          },
+          "instruction": "DECLARAVARIABLE",
+          "type": 3,
+          "value": -1,
+          "operation": {
+            "random": {
+
+            },
+            "type": 0,
+            "value": -1,
+            "operation": {
+              "random": {
+
+              },
+              "type": 1,
+              "value": 78,
+              "operation": {
+                "random": {
+
+                },
+                "type": 1,
+                "value": 78,
+                "operation": {
+
+                },
+                "valueFrom": "",
+                "operator": "+",
+                "isBracket": false
+              },
+              "valueFrom": "",
+              "operator": "",
+              "isBracket": false
+            },
+            "valueFrom": "",
+            "operator": "",
+            "isBracket": true
+          },
+          "valueFrom": ""
+        }
+      ],
+      "instruction": "SI",
+      "continue": [
+        {
+          "subprogram": [
+
+          ],
+          "instruction": "SINO"
+        }
+      ]
+    },
+    {
+      "condition": {
+        "identifier": "id",
+        "compareWith": {
+          "identifier": "",
+          "type": 2,
+          "value": 78,
+          "operator": "<",
+          "valueFrom": {
+
+          },
+          "isBracket": false
+        },
+        "type": 1,
+        "value": -1,
+        "valueFrom": {
+
+        },
+        "isBracket": false
+      },
+      "subprogram": [
+        {
+          "instruction": "ESPERA",
+          "parameter": {
+            "identifier": "",
+            "type": 2,
+            "value": 1,
+            "valueFrom": {
+
+            }
+          }
+        }
+      ],
+      "instruction": "SI",
+      "continue": [
+        {
+          "subprogram": [
+            {
+              "instruction": "ESPERA",
+              "parameter": {
+                "identifier": "",
+                "type": 2,
+                "value": 7,
+                "valueFrom": {
+
+                }
+              }
+            }
+          ],
+          "instruction": "SINO"
+        },
+        {
+          "condition": {
+            "identifier": "",
+            "compareWith": {
+
+            },
+            "type": 4,
+            "value": true,
+            "valueFrom": {
+              "identifier": "",
+              "compareWith": {
+                "identifier": "",
+                "type": 3,
+                "value": -1,
+                "operator": "<=",
+                "valueFrom": {
+                  "instruction": "RANDOM",
+                  "from": 7,
+                  "to": 9,
+                  "between": true
+                },
+                "isBracket": false
+              },
+              "type": 3,
+              "value": -1,
+              "valueFrom": {
+                "instruction": "RANDOM",
+                "from": -1,
+                "to": -1,
+                "between": false
+              },
+              "isBracket": false
+            },
+            "isBracket": true
+          },
+          "subprogram": [
+            {
+              "instruction": "ESPERA",
+              "parameter": {
+                "identifier": "",
+                "type": 2,
+                "value": 6,
+                "valueFrom": {
+
+                }
+              }
+            }
+          ],
+          "instruction": "SINOSI"
+        },
+        {
+          "condition": {
+            "identifier": "",
+            "compareWith": {
+
+            },
+            "type": 4,
+            "value": false,
+            "valueFrom": {
+              "identifier": "",
+              "compareWith": {
+
+              },
+              "type": 0,
+              "value": "true",
+              "valueFrom": {
+
+              },
+              "isBracket": false
+            },
+            "isBracket": true
+          },
+          "subprogram": [
+            {
+              "instruction": "ESPERA",
+              "parameter": {
+                "identifier": "",
+                "type": 2,
+                "value": 5,
+                "valueFrom": {
+
+                }
+              }
+            }
+          ],
+          "instruction": "SINOSI"
+        },
+        {
+          "condition": {
+            "identifier": "",
+            "compareWith": {
+
+            },
+            "type": 4,
+            "value": true,
+            "valueFrom": {
+              "identifier": "id",
+              "compareWith": {
+                "identifier": "",
+                "type": 2,
+                "value": 78,
+                "operator": "<",
+                "valueFrom": {
+
+                },
+                "isBracket": false
+              },
+              "type": 1,
+              "value": -1,
+              "valueFrom": {
+
+              },
+              "isBracket": false
+            },
+            "isBracket": true
+          },
+          "subprogram": [
+            {
+              "instruction": "ESPERA",
+              "parameter": {
+                "identifier": "",
+                "type": 2,
+                "value": 4,
+                "valueFrom": {
+
+                }
+              }
+            }
+          ],
+          "instruction": "SINOSI"
+        },
+        {
+          "condition": {
+            "identifier": "",
+            "compareWith": {
+              "identifier": "",
+              "type": 3,
+              "value": -1,
+              "operator": "<=",
+              "valueFrom": {
+                "instruction": "RANDOM",
+                "from": 7,
+                "to": 9,
+                "between": true
+              },
+              "isBracket": false
+            },
+            "type": 3,
+            "value": -1,
+            "valueFrom": {
+              "instruction": "RANDOM",
+              "from": -1,
+              "to": -1,
+              "between": false
+            },
+            "isBracket": false
+          },
+          "subprogram": [
+            {
+              "instruction": "ESPERA",
+              "parameter": {
+                "identifier": "",
+                "type": 2,
+                "value": 3,
+                "valueFrom": {
+
+                }
+              }
+            }
+          ],
+          "instruction": "SINOSI"
+        },
+        {
+          "condition": {
+            "identifier": "",
+            "compareWith": {
+
+            },
+            "type": 0,
+            "value": "true",
+            "valueFrom": {
+
+            },
+            "isBracket": false
+          },
+          "subprogram": [
+            {
+              "instruction": "ESPERA",
+              "parameter": {
+                "identifier": "",
+                "type": 2,
+                "value": 2,
+                "valueFrom": {
+
+                }
+              }
+            }
+          ],
+          "instruction": "SINOSI"
+        }
+      ]
+    },
+    {
+      "identifier": "id",
+      "default": {
+        "subprogram": [
+          {
+            "instruction": "MURODELANTE"
+          },
+          {
+            "instruction": "AVANZAR",
+            "parameter": {
+              "identifier": "",
+              "type": 2,
+              "value": 5,
+              "valueFrom": {
+
+              }
+            }
+          },
+          {
+            "instruction": "MURODELANTE"
+          },
+          {
+            "instruction": "ESPERA",
+            "parameter": {
+              "identifier": "",
+              "type": 2,
+              "value": 1,
+              "valueFrom": {
+
+              }
+            }
+          }
+        ],
+        "instruction": "DEFAULT",
+        "end": true
+      },
+      "cases": {
+        "condition": {
+          "type": 0,
+          "value": 7,
+          "operator": "",
+          "valueFrom": {
+
+          }
+        },
+        "subprogram": [
+          {
+            "instruction": "ESPERA",
+            "parameter": {
+              "identifier": "",
+              "type": 2,
+              "value": 5,
+              "valueFrom": {
+
+              }
+            }
+          },
+          {
+            "instruction": "AVANZAR",
+            "parameter": {
+              "identifier": "",
+              "type": 2,
+              "value": 1,
+              "valueFrom": {
+
+              }
+            }
+          },
+          {
+            "instruction": "MURODELANTE"
+          }
+        ],
+        "instruction": "CASO",
+        "continue": {
+          "condition": {
+            "type": 0,
+            "value": 7,
+            "operator": "<",
+            "valueFrom": {
+
+            }
+          },
+          "subprogram": [
+            {
+              "instruction": "AVANZAR",
+              "parameter": {
+                "identifier": "",
+                "type": 2,
+                "value": 2,
+                "valueFrom": {
+
+                }
+              }
+            },
+            {
+              "instruction": "MURODELANTE"
+            },
+            {
+              "instruction": "MURODELANTE"
+            },
+            {
+              "instruction": "ESPERA",
+              "parameter": {
+                "identifier": "",
+                "type": 2,
+                "value": 4,
+                "valueFrom": {
+
+                }
+              }
+            }
+          ],
+          "instruction": "CASO",
+          "continue": {
+            "condition": {
+              "type": 1,
+              "value": -1,
+              "operator": "",
+              "valueFrom": {
+                "instruction": "RANDOM",
+                "from": -1,
+                "to": -1,
+                "between": false
+              }
+            },
+            "subprogram": [
+              {
+                "instruction": "MURODELANTE"
+              },
+              {
+                "instruction": "ESPERA",
+                "parameter": {
+                  "identifier": "",
+                  "type": 2,
+                  "value": 3,
+                  "valueFrom": {
+
+                  }
+                }
+              },
+              {
+                "instruction": "MURODELANTE"
+              },
+              {
+                "instruction": "AVANZAR",
+                "parameter": {
+                  "identifier": "",
+                  "type": 2,
+                  "value": 3,
+                  "valueFrom": {
+
+                  }
+                }
+              }
+            ],
+            "instruction": "CASO",
+            "continue": {
+              "condition": {
+                "type": 1,
+                "value": -1,
+                "operator": "",
+                "valueFrom": {
+                  "instruction": "RANDOM",
+                  "from": 7,
+                  "to": 12,
+                  "between": true
+                }
+              },
+              "subprogram": [
+                {
+                  "instruction": "MURODELANTE"
+                },
+                {
+                  "instruction": "AVANZAR",
+                  "parameter": {
+                    "identifier": "",
+                    "type": 2,
+                    "value": 4,
+                    "valueFrom": {
+
+                    }
+                  }
+                },
+                {
+                  "instruction": "MURODELANTE"
+                },
+                {
+                  "instruction": "ESPERA",
+                  "parameter": {
+                    "identifier": "",
+                    "type": 2,
+                    "value": 2,
+                    "valueFrom": {
+
+                    }
+                  }
+                }
+              ],
+              "instruction": "CASO",
+              "continue": {
+
+              },
+              "end": true
+            },
+            "end": true
+          },
+          "end": true
+        },
+        "end": false
+      },
+      "instruction": "COMPARAR"
+    },
+    {
+      "subprogram": [
+        {
+          "instruction": "MURODELANTE"
+        },
+        {
+          "instruction": "MURODELANTE"
+        }
+      ],
+      "condition": {
+        "identifier": "i",
+        "compareWith": {
+          "identifier": "",
+          "type": 2,
+          "value": 25,
+          "operator": "<",
+          "valueFrom": {
+
+          },
+          "isBracket": false
+        },
+        "type": 1,
+        "value": -1,
+        "valueFrom": {
+
+        },
+        "isBracket": false
+      },
+      "instruction": "FOR",
+      "declarations": [
+        {
+          "identifier": "i",
+          "instruction": "CREAVARIABLETEMPORALFOR",
+          "valueFrom": {
+            "random": {
+
+            },
+            "type": 1,
+            "value": 0,
+            "operation": {
+
+            },
+            "valueFrom": ""
+          }
+        },
+        {
+          "identifier": "id",
+          "instruction": "MODIFICAVARIABLEFOR",
+          "valueFrom": {
+            "random": {
+
+            },
+            "type": 3,
+            "value": -1,
+            "operation": {
+              "random": {
+
+              },
+              "type": 0,
+              "value": -1,
+              "operation": {
+                "random": {
+
+                },
+                "type": 1,
+                "value": 2,
+                "operation": {
+                  "random": {
+                    "instruction": "RANDOM",
+                    "from": -1,
+                    "to": -1,
+                    "between": false
+                  },
+                  "type": 3,
+                  "value": -1,
+                  "operation": {
+
+                  },
+                  "valueFrom": "",
+                  "operator": "*",
+                  "isBracket": false
+                },
+                "valueFrom": "",
+                "operator": "",
+                "isBracket": false
+              },
+              "valueFrom": "",
+              "operator": "",
+              "isBracket": true
+            },
+            "valueFrom": ""
+          }
+        }
+      ],
+      "increments": [
+        {
+          "identifier": "i",
+          "instruction": "INCREMENTAVARIABLEFOR"
+        },
+        {
+          "identifier": "a",
+          "instruction": "DECREMENTAVARIABLEFOR"
+        }
+      ]
+    },
+    {
+      "condition": {
+        "identifier": "",
+        "compareWith": {
+
+        },
+        "type": 0,
+        "value": "falso",
+        "valueFrom": {
+
+        },
+        "isBracket": false
+      },
+      "subprogram": [
+        {
+          "instruction": "MURODELANTE"
+        },
+        {
+          "instruction": "MURODELANTE"
+        }
+      ],
+      "instruction": "HACER"
+    },
+    {
+      "condition": {
+        "identifier": "",
+        "compareWith": {
+
+        },
+        "type": 0,
+        "value": "verdadero",
+        "valueFrom": {
+
+        },
+        "isBracket": false
+      },
+      "subprogram": [
+        {
+          "instruction": "MURODELANTE"
+        },
+        {
+          "instruction": "MURODELANTE"
+        }
+      ],
+      "instruction": "REPITEHASTA"
+    }
+  ],
+  "message": "success",
+  "status": true
+}
